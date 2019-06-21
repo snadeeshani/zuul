@@ -1,0 +1,12 @@
+
+
+zuul:
+  routes:
+    sample1:
+      path: /sample1/**
+#      url: http://localhost:8086/api
+      serviceId: sample-service1
+    sample2:
+      path: /sample2/**
+#      url: http://localhost:8088/api
+      serviceId: sample-service2
